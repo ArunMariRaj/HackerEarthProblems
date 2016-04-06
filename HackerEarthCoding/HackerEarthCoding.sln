@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindEvenNumbers", "FindEven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallFactorials", "SmallFactorials\SmallFactorials.csproj", "{C48F1912-FEE0-42D0-A0C3-2C6D34875413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestInternetBrowserRemoveVowelsFromString", "BestInternetBrowserRemoveVowelsFromString\BestInternetBrowserRemoveVowelsFromString.csproj", "{D0982967-EE6E-44C9-BFDE-C35DF555A7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashesInADigitalString", "DashesInADigitalString\DashesInADigitalString.csproj", "{2729FA4E-4468-4E27-957E-3DF2E9B87644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteLandianGoldCoinDynamicProgramming", "ByteLandianGoldCoinDynamicProgramming\ByteLandianGoldCoinDynamicProgramming.csproj", "{2ADB2F46-649D-4E94-AC2D-280383CCC511}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0982967-EE6E-44C9-BFDE-C35DF555A7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0982967-EE6E-44C9-BFDE-C35DF555A7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0982967-EE6E-44C9-BFDE-C35DF555A7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0982967-EE6E-44C9-BFDE-C35DF555A7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2729FA4E-4468-4E27-957E-3DF2E9B87644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2729FA4E-4468-4E27-957E-3DF2E9B87644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2729FA4E-4468-4E27-957E-3DF2E9B87644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2729FA4E-4468-4E27-957E-3DF2E9B87644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADB2F46-649D-4E94-AC2D-280383CCC511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADB2F46-649D-4E94-AC2D-280383CCC511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADB2F46-649D-4E94-AC2D-280383CCC511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADB2F46-649D-4E94-AC2D-280383CCC511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
