@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZerosInFactorial", "ZerosIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindEvenNumbers", "FindEvenNumbers\FindEvenNumbers.csproj", "{8DB79711-D4B5-47D5-8AF7-977D51CF9342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallFactorials", "SmallFactorials\SmallFactorials.csproj", "{C48F1912-FEE0-42D0-A0C3-2C6D34875413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8DB79711-D4B5-47D5-8AF7-977D51CF9342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DB79711-D4B5-47D5-8AF7-977D51CF9342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DB79711-D4B5-47D5-8AF7-977D51CF9342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F1912-FEE0-42D0-A0C3-2C6D34875413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
