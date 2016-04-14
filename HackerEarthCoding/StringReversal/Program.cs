@@ -16,25 +16,24 @@ namespace StringReversal
             while(numberOfStrings>0)
             {
                 stringInput = Console.ReadLine();
-                Console.WriteLine("{0}",terribleChandu.ReverseString(stringInput));
+                Console.WriteLine("{0}",terribleChandu.ReverseString(stringInput.ToCharArray()));
                 numberOfStrings--;
             }
         }
 
-        public string ReverseString(string inputString)
+        public string ReverseString(char[] inputString)
         {
-            char[] outputString = inputString.ToCharArray();
-            int stringLength = outputString.Length;
+            int stringLength = inputString.Length;
             int reversalPivot = stringLength / 2;
             char temp;
             for (int i = 0; i < reversalPivot; i++)
             {
                 stringLength--;
-                temp = outputString[i];
-                outputString[i] = outputString[stringLength];
-                outputString[stringLength] = temp;
+                temp = inputString[i];
+                inputString[i] = inputString[stringLength];
+                inputString[stringLength] = temp;
             }
-            return new string(outputString);
+            return new string(inputString);
         }
     }
 }
